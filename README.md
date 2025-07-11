@@ -34,32 +34,32 @@ This project was built to demonstrate strong frontend-backend integration, API h
 ##  Installation
 
 ### Clone the Repository 
-```bash
 git clone https://github.com/Raihana-Afshan/url-shortner-raihana.git
 cd url-shortner-raihana
 
-Setup Server
+
+##  Setup Server
 cd server
 npm install
 
 
-Create a .env file inside server folder:
+##  Create a .env file inside server folder:
 
 MONGO_URI=your-mongodb-uri
 BASE_URL=http://localhost:5000
 PORT=5000
 
 
-Start the server:
+##  Start the server:
 npm run dev
 
-Setup Client:
+##  Setup Client:
 cd ../client
 npm install
 npm run dev
 Visit http://localhost:5173 in your browser.
 
-Learnings:
+##  Learnings:
 
 Structuring a MERN stack application from scratch
 
@@ -74,13 +74,16 @@ Managing async operations and MongoDB integration
 Preparing an app for deployment with environmental configs
 
 
-Folder Structure
+#  Folder Structure
 url-shortner-raihana/
 ├── client/        # React frontend
 ├── server/        # Node.js backend
 └── README.md
 
-Created with by Raihana Afshan
+
+
+
+Created by Raihana Afshan
 raihanaafshan29@gmail.com
 
 
